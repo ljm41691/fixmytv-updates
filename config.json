@@ -1,0 +1,76 @@
+{
+  "default": "red-wizard-family",
+  "screensaver_minutes": 15,
+  "admin_pin_hash": "pbkdf2-sha256$120000$rcK3O+My9pfMBb9g9DNWcA==$ADv/FcuRCudPy6HW9YbpRTKFOH8tvSpYN9Rw67r/MvE=",
+  "app_version_code": 3,
+  "app_apk": "https://github.com/ljm41691/fixmytv-updates/releases/download/v3/fixit.apk",
+  "app_sha256": "1843275c0a1164eb17c0ef6750c184a0a4ddffba1cf84aaa7081d71f708b910b",
+  "report_url": "TODO: https://<nas>/report",
+  "profiles": {
+    "red-wizard-family": {
+      "kodi_version": "21.2",
+      "kodi_apk": "https://mirrors.kodi.tv/releases/android/arm/kodi-21.2-Omega-armeabi-v7a.apk",
+      "kodi_sha256": "5bff2c5494df3bfae144b650326e938c16e5fa1362d86f7f424a36b6dab27472",
+      "kodi_abi": "armeabi-v7a",
+      "repo_name": "Red Wizard",
+      "repo_url": "https://repo.redwizard.xyz/",
+      "repo_addon": "repository.redwizard",
+      "wizard_addon": "plugin.program.theredwizard",
+      "build_list": "https://repo.redwizard.xyz/wizard/redwizard-builds.xml",
+      "build_name": "Red Wizard Family",
+      "build_version": "8.7.8a",
+      "build_url": "https://repo.redwizard.xyz/wizard/builds/omega-sw/fam_omega-sw.8.7.8a.zip"
+    }
+  },
+  "repos": [
+    {
+      "name": "Diggz (Xenon)",
+      "url": "https://diggz1.me/diggzrepo/",
+      "repo_addon": "repository.diggz",
+      "wizard_addon": "plugin.program.chef21",
+      "build": "dMo - Simply Estuary",
+      "build_list": "https://raw.githubusercontent.com/Buildtexts69/omegabuilds/main/omega.xml"
+    },
+    {
+      "name": "Doomzday (Doomzday, Aspire)",
+      "url": "https://doomzdayteam.github.io/doomzday/",
+      "repo_addon": "repository.doomzday",
+      "wizard_addon": "plugin.program.doomzdaysimple",
+      "note": "build list is read from the wizard's menu (its settings file is scrambled)",
+      "build": "MQ Light"
+    },
+    {
+      "name": "Enigma (Silvo)",
+      "url": "https://team-enigma.xyz/repo/",
+      "repo_addon": "repository.enigmawiz",
+      "wizard_addon": "plugin.program.enigmawiz",
+      "build": "Cosmos Lite",
+      "build_list": "https://team-enigma.xyz/builds.json"
+    },
+    {
+      "name": "Grindhouse",
+      "url": "http://grindhousekodi.tk/repo/",
+      "note": "reported offline 2026-11"
+    }
+  ],
+  "apps": [
+    { "name": "Kodi", "package": "org.xbmc.kodi", "source": "sideload", "version": "21.2" },
+    { "name": "NOVA Video Player", "package": "com.nx.video.player", "source": "sideload", "version": "1.1.6" },
+    { "name": "Prime Video", "package": "com.amazon.amazonvideo.livingroom", "source": "playstore", "version": "6.24.13+v16.0.1.93-allAbis" },
+    { "name": "Crunchyroll", "package": "com.crunchyroll.crunchyroid", "source": "playstore", "version": "3.81.0" },
+    { "name": "Downloader", "package": "com.esaba.downloader", "source": "playstore", "version": "2.0.4-ForGoogleAndroidDevices" },
+    { "name": "Google Play Games", "package": "com.google.android.play.games", "source": "playstore", "version": "2026.11.71427 (1019846497.1019846497-040700)" },
+    { "name": "Speech Services by Google", "package": "com.google.android.tts", "source": "playstore", "version": "googletts.google-speech-apk_20261026.00_p0-tv.1007071969" },
+    { "name": "Google TV", "package": "com.google.android.videos", "source": "playstore", "version": "4.40.15.23-tv" },
+    { "name": "YouTube", "package": "com.google.android.youtube.tv", "source": "playstore", "version": "5.30.340" },
+    { "name": "YouTube Music", "package": "com.google.android.youtube.tvmusic", "source": "playstore", "version": "1.12.07" },
+    { "name": "MX Player Pro", "package": "com.mxtech.videoplayer.pro", "source": "playstore", "version": "1.93.4" },
+    { "name": "Netflix", "package": "com.netflix.ninja", "source": "playstore", "version": "13.2.4 build 28901" },
+    { "name": "Peacock", "package": "com.peacocktv.peacockandroid", "source": "playstore", "version": "7.11.200" },
+    { "name": "Plex", "package": "com.plexapp.android", "source": "playstore", "version": "2026.22.0" },
+    { "name": "Stremio", "package": "com.stremio.one", "source": "playstore", "version": "1.13.0" },
+    { "name": "Surfshark", "package": "com.surfshark.vpnclient.android", "source": "playstore", "version": "3.39.0" },
+    { "name": "Send Files to TV", "package": "com.yablio.sendfilestotv", "source": "playstore", "version": "1.4.22" },
+    { "name": "VLC", "package": "org.videolan.vlc", "source": "playstore", "version": "3.7.2" }
+  ]
+}
