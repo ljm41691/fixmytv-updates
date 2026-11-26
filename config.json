@@ -2,9 +2,9 @@
   "default": "red-wizard-family",
   "screensaver_minutes": 15,
   "admin_pin_hash": "pbkdf2-sha256$120000$rcK3O+My9pfMBb9g9DNWcA==$ADv/FcuRCudPy6HW9YbpRTKFOH8tvSpYN9Rw67r/MvE=",
-  "app_version_code": 6,
-  "app_apk": "https://github.com/ljm41691/fixmytv-updates/releases/download/v6/fixit.apk",
-  "app_sha256": "7a774f4a172f231348f397c86da508c83c80741167c5fa7fb0d50d513beb2f1f",
+  "app_version_code": 7,
+  "app_apk": "https://github.com/ljm41691/fixmytv-updates/releases/download/v7/fixit.apk",
+  "app_sha256": "afdbeff4ac87bd68fc3bb7203f37bf9eb285d296611a9223ac56a2cd0573290a",
   "report_url": "TODO: https://<nas>/report",
   "profiles": {
     "red-wizard-family": {
