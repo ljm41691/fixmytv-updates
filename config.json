@@ -55,7 +55,6 @@
   ],
   "apps": [
     { "name": "Kodi", "package": "org.xbmc.kodi", "source": "sideload", "version": "21.2" },
-    { "name": "NOVA Video Player", "package": "com.nx.video.player", "source": "sideload", "version": "1.1.6" },
     { "name": "Prime Video", "package": "com.amazon.amazonvideo.livingroom", "source": "playstore", "version": "6.24.13+v16.0.1.93-allAbis" },
     { "name": "Crunchyroll", "package": "com.crunchyroll.crunchyroid", "source": "playstore", "version": "3.81.0" },
     { "name": "Downloader", "package": "com.esaba.downloader", "source": "playstore", "version": "2.0.4-ForGoogleAndroidDevices" },
